@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Базовая SEO-подготовка -->
+    <title>Чип-тюнинг и стайлинг автомобилей | ForseDrive</title>
+    <meta name="description" content="Профессиональный тюнинг автомобилей от ForseDrive: чип-тюнинг Stage 1-3, кастомный выхлоп, оклейка пленкой. Увеличим мощность до 30% с гарантией. Запишитесь на консультацию!">
+    <meta name="keywords" content="чип-тюнинг, стайлинг авто, тюнинг ателье, ForseDrive, тюнинг выхлопа, увеличение мощности двигателя, оклейка авто">
+    <meta property="og:title" content="Тюнинг-ателье ForseDrive | Раскройте потенциал своего авто">
+    <meta property="og:description" content="Увеличение мощности, стайлинг и доработка выхлопных систем с гарантией. Оставьте заявку на расчет стоимости.">
+    <meta property="og:type" content="website">
+    
+    <!-- Подключение Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Настройка фирменных цветов (Красный и Темно-серый) -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            500: '#ef4444', 
+                            600: '#dc2626', 
+                            900: '#111827', 
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-900 text-white font-sans antialiased">
+
+    <!-- Шапка сайта (Header) -->
+    <header class="fixed w-full top-0 bg-brand-900/90 backdrop-blur-md z-50 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <svg class="w-8 h-8 text-brand-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                <span class="text-2xl font-bold tracking-wider uppercase">Forse<span class="text-brand-500">Drive</span></span>
+            </div>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#services" class="hover:text-brand-500 transition-colors">Услуги</a>
+                <a href="#benefits" class="hover:text-brand-500 transition-colors">Преимущества</a>
+                <a href="tel:+79991234567" class="font-bold text-lg">+7 (999) 123-45-67</a>
+            </div>
+            <a href="#contact" class="bg-brand-500 hover:bg-brand-600 px-6 py-2 rounded-full font-semibold transition-all shadow-[0_0_15px_rgba(239,68,68,0.5)]">
+                Записаться
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Первый экран (Hero Section) -->
+        <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img src="https://images.unsplash.com/photo-1541443131876-44b03de101c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Спортивный автомобиль в тюнинге" class="w-full h-full object-cover opacity-30">
+                <div class="absolute inset-0 bg-gradient-to-t from-brand-900 via-transparent to-brand-900"></div>
+            </div>
+            
+            <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+                    Раскройте истинный<br> потенциал <span class="text-brand-500">вашего авто</span>
+                </h1>
+                <p class="mt-4 text-xl text-gray-300 max-w-2xl mx-auto md:mx-0 mb-10">
+                    Профессиональный чип-тюнинг, кастомный выхлоп и стайлинг. Увеличим мощность двигателя до 30% безопасно и с сохранением ресурса.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#contact" class="bg-brand-500 hover:bg-brand-600 px-8 py-4 rounded-full font-bold text-lg transition-all shadow-[0_0_20px_rgba(239,68,68,0.6)] text-center">
+                        Рассчитать стоимость
+                    </a>
+                    <a href="#services" class="border border-gray-500 hover:border-brand-500 hover:text-brand-500 px-8 py-4 rounded-full font-bold text-lg transition-all text-center">
+                        Смотреть услуги
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок социального доказательства -->
+        <section id="benefits" class="border-y border-gray-800 bg-gray-900/50">
+            <div class="max-w-7xl mx-auto px-4 py-8 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-4xl font-black text-brand-500">5+</div>
+                    <div class="text-sm text-gray-400 mt-2 uppercase tracking-wide">Лет опыта</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-black text-brand-500">1200+</div>
+                    <div class="text-sm text-gray-400 mt-2 uppercase tracking-wide">Прокачанных авто</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-black text-brand-500">2 года</div>
+                    <div class="text-sm text-gray-400 mt-2 uppercase tracking-wide">Гарантия на работы</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-black text-brand-500">Dino</div>
+                    <div class="text-sm text-gray-400 mt-2 uppercase tracking-wide">Свой дино-стенд</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Услуги -->
+        <section id="services" class="py-20 bg-brand-900">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-5xl font-bold text-center mb-16">Наши <span class="text-brand-500">Услуги</span></h2>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-gray-800 rounded-2xl overflow-hidden hover:-translate-y-2 transition-transform duration-300 group">
+                        <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Чип-тюнинг двигателя" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-3">Чип-тюнинг (Stage 1-3)</h3>
+                            <p class="text-gray-400 mb-6">Программное увеличение мощности, снятие лимитов скорости, отключение EGR и катализаторов.</p>
+                            <a href="#contact" class="text-brand-500 font-semibold hover:text-white transition-colors">Узнать цену &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-2xl overflow-hidden hover:-translate-y-2 transition-transform duration-300 group">
+                        <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Тюнинг выхлопной системы" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-3">Кастомный выхлоп</h3>
+                            <p class="text-gray-400 mb-6">Изготовление даунпайпов, трасс из нержавеющей стали, установка управляемых заслонок.</p>
+                            <a href="#contact" class="text-brand-500 font-semibold hover:text-white transition-colors">Узнать цену &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-2xl overflow-hidden hover:-translate-y-2 transition-transform duration-300 group">
+                        <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Оклейка авто пленкой" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-3">Внешний стайлинг</h3>
+                            <p class="text-gray-400 mb-6">Оклейка кузова полиуретановой и виниловой пленкой, антихром, установка аэродинамических обвесов.</p>
+                            <a href="#contact" class="text-brand-500 font-semibold hover:text-white transition-colors">Узнать цену &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Форма захвата с отправкой в Telegram -->
+        <section id="contact" class="py-20 relative">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 md:p-12 border border-gray-700 shadow-2xl">
+                    <div class="text-center mb-8">
+                        <h2 class="text-3xl font-bold mb-4">Хотите узнать, на что способна ваша машина?</h2>
+                        <p class="text-gray-400">Оставьте заявку, и мастер свяжется с вами для бесплатной консультации.</p>
+                    </div>
+                    
+                    <form id="leadForm" class="space-y-4">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="sr-only">Марка и модель авто</label>
+                                <input id="autoData" type="text" placeholder="Марка, модель, год" class="w-full bg-gray-900 border border-gray-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brand-500 transition-colors" required>
+                            </div>
+                            <div>
+                                <label class="sr-only">Ваш телефон</label>
+                                <input id="phoneData" type="tel" placeholder="+7 (999) 000-00-00" class="w-full bg-gray-900 border border-gray-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brand-500 transition-colors" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-4 rounded-xl transition-all shadow-[0_0_15px_rgba(239,68,68,0.4)] text-lg">
+                            Получить бесплатный расчет
+                        </button>
+                        <p class="text-xs text-center text-gray-500 mt-4">
+                            Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал (Footer) -->
+    <footer class="bg-black py-10 border-t border-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="text-2xl font-bold uppercase tracking-wider">
+                Forse<span class="text-brand-500">Drive</span>
+            </div>
+            <div class="text-sm text-gray-500 text-center md:text-left">
+                © 2026 Тюнинг-ателье ForseDrive. Все права защищены.<br>
+                ИНН 7700000000 | ОГРН 1234567890123
+            </div>
+            <div class="text-sm text-gray-500 hover:text-white transition-colors cursor-pointer">
+                Политика конфиденциальности
+            </div>
+        </div>
+    </footer>
+
+    <!-- Скрипт отправки данных в Telegram -->
+    <script>
+        const TOKEN = "8822173555:AAEvpKJJXt8F349zddj-6Ps0eYQQoCQmpJI";
+        const CHAT_ID = "5688457832";
+        const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault(); 
+            
+            const auto = document.getElementById('autoData').value;
+            const phone = document.getElementById('phoneData').value;
+            
+            let message = `<b>🔥 Новая заявка с сайта ForseDrive!</b>\n\n`;
+            message += `🚗 Автомобиль: ${auto}\n`;
+            message += `📞 Телефон: ${phone}`;
+
+            fetch(URI_API, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    chat_id: CHAT_ID,
+                    text: message,
+                    parse_mode: 'html'
+                })
+            })
+            .then(response => {
+                alert('Заявка успешно отправлена! Мы скоро свяжемся с вами.');
+                this.reset(); 
+            })
+            .catch(error => {
+                alert('Упс, что-то пошло не так. Попробуйте позже.');
+            });
+        });
+    </script>
+</body>
+</html>
